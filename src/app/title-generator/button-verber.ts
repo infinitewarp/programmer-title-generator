@@ -1,6 +1,4 @@
-import { Component } from '@angular/core';
-
-export class CommandGenerator {
+export class ButtonVerber {
   commands = [
     'again',
     'another plz',

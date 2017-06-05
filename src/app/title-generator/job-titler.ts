@@ -1,6 +1,4 @@
-import { Component } from '@angular/core';
-
-export class TitleGenerator {
+export class JobTitler {
   levels = [
     'Senior',
     'Senior Executive',
@@ -114,7 +112,7 @@ export class TitleGenerator {
   ]
 
   coinToss = function() {
-      return Math.floor(Math.random() * 2) === 0
+      return Math.floor(Math.random() * 2) === 0;
   }
 
   choice = function(fromArray) {

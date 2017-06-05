@@ -1,19 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
-import { AppTitleGenerator } from './app.generator';
+import { AppComponent } from './app.component';
+import { TitleGeneratorComponent } from './title-generator/title-generator.component';
 
 @NgModule({
   declarations: [
-    AppTitleGenerator
+    AppComponent,
+    TitleGeneratorComponent
   ],
   imports: [
     BrowserModule,
     NgbModule.forRoot()
   ],
   providers: [],
-  bootstrap: [AppTitleGenerator]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
