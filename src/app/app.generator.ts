@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 import { TitleGenerator } from './generators/title';
 import { CommandGenerator } from './generators/command';
@@ -10,7 +10,7 @@ import { CommandGenerator } from './generators/command';
   styleUrls: ['./app.generator.css']
 })
 
-export class AppTitleGenerator {
+export class AppTitleGenerator implements OnInit {
   jobTitle: string;
   commandName: string;
 
@@ -20,9 +20,9 @@ export class AppTitleGenerator {
   regenerate = function() {
       this.jobTitle = this.titleGenerator.getRandom();
       this.commandName = this.commandGenerator.getRandom();
-  };
+  }
 
-  constructor() {
+  ngOnInit() {
     this.regenerate();
-  };
+  }
 }
