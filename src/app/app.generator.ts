@@ -14,15 +14,20 @@ export class AppTitleGenerator implements OnInit {
   jobTitle: string;
   commandName: string;
 
-  private titleGenerator = new TitleGenerator();
-  private commandGenerator = new CommandGenerator();
+  private titleGenerator: TitleGenerator;
+  private commandGenerator: CommandGenerator;
 
-  regenerate = function() {
-      this.jobTitle = this.titleGenerator.getRandom();
-      this.commandName = this.commandGenerator.getRandom();
+  constructor() {
+    this.titleGenerator = new TitleGenerator();
+    this.commandGenerator = new CommandGenerator();
   }
 
   ngOnInit() {
     this.regenerate();
+  }
+
+  regenerate = function() {
+    this.jobTitle = this.titleGenerator.getRandom();
+    this.commandName = this.commandGenerator.getRandom();
   }
 }
