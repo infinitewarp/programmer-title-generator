@@ -2,6 +2,7 @@ export class ButtonVerber {
   commands = [
     'again',
     'another plz',
+    'boop the button',
     'cat /dev/random',
     'fizz buzz it',
     'give it to a script kiddie',
@@ -11,13 +12,15 @@ export class ButtonVerber {
     'new title',
     'one more',
     'punch it',
+    'regenerate title',
+    'reset',
     'reticulate splines',
     'something else',
     'that\'s not good enough',
     'this time with emphasis',
     'titleGenerator.getRandom()',
     'yet another',
-    '{{buttonTitle}}'
+    '{{buttonTitle}}',
   ]
 
   getRandom = function() {
