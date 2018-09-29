@@ -173,6 +173,10 @@ export class JobTitler {
     'MCSE',  // Microsoft Certified Solutions Expert
     'OCPJP',  // Oracle Certified Professional Java Programmer
     'PMP',  // Project Manager Professional
+    'RHCA', // Red Hat Certified Architect
+    'RHCE', // Red Hat Certified Engineer
+    'RHCJD', // Red Hat Certified JBoss Developer
+    'RHCSA', // Red Hat Certified System Administrator
   ]
 
   coinToss = function() {
