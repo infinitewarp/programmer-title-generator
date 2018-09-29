@@ -28,6 +28,7 @@ export class JobTitler {
     'Growth-hacking',
     'Business Systems',
     'Business',
+    'Blockchain',
     'Corporate',
     'Cloud',
   ]
