@@ -28,6 +28,7 @@ export class TitleGeneratorComponent implements OnInit {
 
   regenerate = function() {
     this.jobTitle = this.jobTitler.getRandom();
+    console.log(this.jobTitle);
     this.commandName = this.buttonVerber.getRandom();
   }
 }
