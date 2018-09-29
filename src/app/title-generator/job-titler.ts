@@ -96,6 +96,12 @@ export class JobTitler {
     'UX',
     'Web',
 
+    // cloud technologies
+    'AWS',
+    'Azure',
+    'GCP',
+    'VMware',
+
     // languages/frameworks
     '.NET',
     'ActionScript',
