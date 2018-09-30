@@ -7,9 +7,9 @@ describe('Title Generator App', () => {
     page = new TitleGeneratorPage();
   });
 
-  it('should display github "source" footer', done => {
+  it('should display gitlab "source" footer', done => {
     page.navigateTo();
-    page.getFooterGtihubLinkText()
+    page.getFooterGitlabLinkText()
       .then(msg => expect(msg).toEqual('source'))
       .then(done, done.fail);
   });

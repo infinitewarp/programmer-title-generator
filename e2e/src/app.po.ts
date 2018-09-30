@@ -5,7 +5,7 @@ export class TitleGeneratorPage {
     return browser.get('/');
   }
 
-  getFooterGtihubLinkText() {
+  getFooterGitlabLinkText() {
     return element(by.css('app-title-generator .mastfoot .inner a')).getText();
   }
 }
