@@ -1,0 +1,33 @@
+stages:
+  - test
+  - build
+
+before_script:
+  - npm install
+
+cache:
+  paths:
+  - node_modules/
+
+Test:
+  stage: test
+  # See also:
+  # https://forum.gitlab.com/t/running-karma-tests-with-chrome-and-gitlab-ci/14476/5
+  image: weltn24/up-docker-node-chrome-headless:chrome-66_node-10.0_yarn-1.6.0
+  script:
+    - ./node_modules/.bin/ng test --watch=false --code-coverage=true
+  artifacts:
+    paths:
+      - coverage/*
+  coverage: '/(\d*.?\d+)%/'
+
+Build:
+  stage: build
+  image: node:10
+  script:
+    - ./node_modules/.bin/ng build --prod --aot
+    - ls -la .
+    - du -sh .
+  artifacts:
+    paths:
+      - dist/*
