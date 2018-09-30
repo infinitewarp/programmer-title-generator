@@ -46,7 +46,6 @@ export class JobTitler {
     'Architecture',
     'Automation',
     'Backend',
-    'Business Intelligence',
     'Communications',
     'Computer',
     'Content',
@@ -71,25 +70,25 @@ export class JobTitler {
     'Information',
     'Infrastructure',
     'Integration',
+    'Intelligence',
     'Interface',
-    'IT',
     'IT Support',
+    'IT',
     'Knowledge',
     'Legacy Code',
-    'Maintenance',
     'Machine Learning',
+    'Maintenance',
     'Mobile',
     'Network',
     'Online',
     'Operations',
     'Pipeline',
     'Release',
-    'Sales',
     'Sales Incentive',
-    'SEO',
+    'Sales',
     'Security',
+    'SEO',
     'Server',
-    'Software Maintenance',
     'Strategy',
     'Support',
     'Telecommunications',
@@ -202,8 +201,10 @@ export class JobTitler {
     'II',
     'III',
     'IV',
-    'CSM',  // Certified Scrum Master
+
+    // certifications
     'CCNA',  // Cisco Certified Network Associate
+    'CSM',  // Certified Scrum Master
     'MCSE',  // Microsoft Certified Solutions Expert
     'OCPJP',  // Oracle Certified Professional Java Programmer
     'PMP',  // Project Manager Professional
