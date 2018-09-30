@@ -3,7 +3,7 @@
 A fellow coworker recently set his LinkedIn job title to an output from [Who the fuck is my DND character](http://whothefuckismydndcharacter.com/). Inspired by his new title and the realization that software dev titles are just as meaningful, this web app was born: a job title generator for anyone working in the field of software development.
 
 [Live demo](https://infinitewarp.com/title-generator/)
-[![](https://i.imgur.com/Htqjv7Q.png)](https://infinitewarp.com/title-generator/)
+[![](https://i.imgur.com/LK9or5V.png)](https://infinitewarp.com/title-generator/)
 
 ## Development server
 
