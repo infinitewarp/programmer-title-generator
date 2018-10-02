@@ -195,6 +195,11 @@ export class JobTitler {
     'Technician',
     'Tester',
     'Truther',
+    
+    // Maximum degradation
+    'Asset',
+    'Coffee-Fetcher',
+    'Resource',
   ]
 
   suffixes = [
