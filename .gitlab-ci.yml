@@ -19,7 +19,7 @@ Test:
   artifacts:
     paths:
       - coverage/*
-  coverage: '/(\d*.?\d+)%/'
+  coverage: '/: (\d*.?\d+)%/'
 
 Build:
   stage: build
