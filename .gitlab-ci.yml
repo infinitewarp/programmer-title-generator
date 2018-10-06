@@ -29,5 +29,8 @@ Build:
     - ls -la .
     - du -sh .
   artifacts:
+    name: "${CI_COMMIT_REF_NAME}"
     paths:
       - dist/*
+  only:
+    - master@infinitewarp/programmer-title-generator
