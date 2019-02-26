@@ -31,10 +31,12 @@ export class JobTitler {
     'Blockchain',
     'Corporate',
     'Cloud',
+    'Solution',
   ]
 
   subfields = [
     'Development',
+    'Engineering',
     'Quality',
   ]
 
@@ -89,6 +91,7 @@ export class JobTitler {
     'Security',
     'SEO',
     'Server',
+    'Social',
     'Strategy',
     'Support',
     'Telecommunications',
@@ -170,6 +173,7 @@ export class JobTitler {
     'Director',
     'Enthusiast',
     'Evangelist',
+    'Expert',
     'Genius',
     'Guru',
     'Hacker',
