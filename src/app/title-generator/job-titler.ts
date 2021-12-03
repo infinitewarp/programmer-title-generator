@@ -159,6 +159,7 @@ export class JobTitler {
     'JavaScript',
     'JSON',
     'Julia',
+    'Kotlin',
     'Lisp',
     'Lua',
     'Node.js',
